@@ -41,11 +41,6 @@ You MUST update all .py as the old ones wont work with the latest model (many ch
 
 The **NeuroSync Local API** allows you to host the audio-to-face blendshape transformer model locally. This API processes audio data and outputs facial blendshape coefficients, which can be streamed directly to Unreal Engine using the **NeuroSync Player** and LiveLink.
 
-## Installation
-
-1. Ensure uv package manager is installed or [install according to installation guide](https://docs.astral.sh/uv/getting-started/installation/)
-2. `uv sync` to install dependencies
-
 ### Features:
 - Host the model locally for full control
 - Process audio files and generate facial blendshapes
